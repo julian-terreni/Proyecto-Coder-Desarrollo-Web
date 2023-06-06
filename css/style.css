@@ -307,14 +307,17 @@ textarea.form-input {
   .personal img {
     width: 400px;
     height: auto;
-
+   display: flex;
+   margin-bottom: 60px;
+    
   }
 
   .personal {
     width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display:flex;
+    justify-content: space-around;
+    align-items:normal;
+    flex-wrap: wrap;
   }
 
   footer {
